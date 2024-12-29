@@ -42,7 +42,7 @@ const Hero = () => {
                 initial={{ X: 100, opacity: 0 }}
                 animate={{ X: 0, opacity: 1}}
                 transition={{ duration: 1, delay: 1.2}}
-                src={profilePic} className= "rounded-2xl w-[400px] h-[533px] lg:-translate-x-10 lg:-translate-y-20" alt="Malkam Sathvik"></motion.img>
+                src={profilePic} className= "rounded-2xl w-full max-w-[400px] h-auto lg:w-[400px] lg:h-[533px] lg:-translate-x-10 lg:-translate-y-20" alt="Malkam Sathvik"></motion.img>
             </div>
             </div>
         </div>
